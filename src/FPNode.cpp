@@ -24,7 +24,7 @@ FPNode::~FPNode() {
 }
 
 void FPNode::add_child(std::string val) {
-    FPNode child (val, 1, this);
+    FPNode child {val, 1, this};
     children.push_back(&child);
 }
 
@@ -48,4 +48,3 @@ int main() {
 }
 
 
-    

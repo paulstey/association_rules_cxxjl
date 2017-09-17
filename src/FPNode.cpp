@@ -1,6 +1,6 @@
 #include "FPNode.h"
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
 FPNode::FPNode(std::string val, int cnt, FPNode* parnt) {    
     value = val;
